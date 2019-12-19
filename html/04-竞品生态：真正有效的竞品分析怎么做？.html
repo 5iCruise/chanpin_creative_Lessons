@@ -1,0 +1,1082 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>04-竞品生态：真正有效的竞品分析怎么做？</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <style>
+        html {
+            color: #333;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            text-rendering: optimizelegibility;
+            font-family: Helvetica Neue, PingFang SC, Verdana, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif
+        }
+
+        html.borderbox *,
+        html.borderbox :after,
+        html.borderbox :before {
+            box-sizing: border-box
+        }
+
+        article,
+        aside,
+        blockquote,
+        body,
+        button,
+        code,
+        dd,
+        details,
+        dl,
+        dt,
+        fieldset,
+        figcaption,
+        figure,
+        footer,
+        form,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        header,
+        hr,
+        input,
+        legend,
+        li,
+        menu,
+        nav,
+        ol,
+        p,
+        pre,
+        section,
+        td,
+        textarea,
+        th,
+        ul {
+            margin: 0;
+            padding: 0
+        }
+
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        menu,
+        nav,
+        section {
+            display: block
+        }
+
+        audio,
+        canvas,
+        video {
+            display: inline-block
+        }
+
+        body,
+        button,
+        input,
+        select,
+        textarea {
+            font: 300 1em/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, Helvetica, sans-serif
+        }
+
+        button::-moz-focus-inner,
+        input::-moz-focus-inner {
+            padding: 0;
+            border: 0
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0
+        }
+
+        fieldset,
+        img {
+            border: 0
+        }
+
+        blockquote {
+            position: relative;
+            color: #999;
+            font-weight: 400;
+            border-left: 1px solid #1abc9c;
+            padding-left: 1em;
+            margin: 1em 3em 1em 2em
+        }
+
+        @media only screen and (max-width: 640px) {
+            blockquote {
+                margin: 1em 0
+            }
+        }
+
+        abbr,
+        acronym {
+            border-bottom: 1px dotted;
+            font-variant: normal
+        }
+
+        abbr {
+            cursor: help
+        }
+
+        del {
+            text-decoration: line-through
+        }
+
+        address,
+        caption,
+        cite,
+        code,
+        dfn,
+        em,
+        th,
+        var {
+            font-style: normal;
+            font-weight: 400
+        }
+
+        ol,
+        ul {
+            list-style: none
+        }
+
+        caption,
+        th {
+            text-align: left
+        }
+
+        q:after,
+        q:before {
+            content: ""
+        }
+
+        sub,
+        sup {
+            font-size: 75%;
+            line-height: 0;
+            position: relative
+        }
+
+        :root sub,
+        :root sup {
+            vertical-align: baseline
+        }
+
+        sup {
+            top: -.5em
+        }
+
+        sub {
+            bottom: -.25em
+        }
+
+        a {
+            color: #1abc9c
+        }
+
+        a:hover {
+            text-decoration: underline
+        }
+
+        .typo a {
+            border-bottom: 1px solid #1abc9c
+        }
+
+        .typo a:hover {
+            border-bottom-color: #555;
+            color: #555
+        }
+
+        .typo a:hover,
+        a,
+        ins {
+            text-decoration: none
+        }
+
+        .typo-u,
+        u {
+            text-decoration: underline
+        }
+
+        mark {
+            background: #fffdd1;
+            border-bottom: 1px solid #ffedce;
+            padding: 2px;
+            margin: 0 5px
+        }
+
+        code,
+        pre,
+        pre tt {
+            font-family: Courier, Courier New, monospace
+        }
+
+        pre {
+            background: hsla(0, 0%, 97%, .7);
+            border: 1px solid #ddd;
+            padding: 1em 1.5em;
+            display: block;
+            -webkit-overflow-scrolling: touch
+        }
+
+        hr {
+            border: none;
+            border-bottom: 1px solid #cfcfcf;
+            margin-bottom: .8em;
+            height: 10px
+        }
+
+        .typo-small,
+        figcaption,
+        small {
+            font-size: .9em;
+            color: #888
+        }
+
+        b,
+        strong {
+            font-weight: 700;
+            color: #000
+        }
+
+        [draggable] {
+            cursor: move
+        }
+
+        .clearfix:after,
+        .clearfix:before {
+            content: "";
+            display: table
+        }
+
+        .clearfix:after {
+            clear: both
+        }
+
+        .clearfix {
+            zoom: 1
+        }
+
+        .textwrap,
+        .textwrap td,
+        .textwrap th {
+            word-wrap: break-word;
+            word-break: break-all
+        }
+
+        .textwrap-table {
+            table-layout: fixed
+        }
+
+        .serif {
+            font-family: Palatino, Optima, Georgia, serif
+        }
+
+        .typo-dl,
+        .typo-form,
+        .typo-hr,
+        .typo-ol,
+        .typo-p,
+        .typo-pre,
+        .typo-table,
+        .typo-ul,
+        .typo dl,
+        .typo form,
+        .typo hr,
+        .typo ol,
+        .typo p,
+        .typo pre,
+        .typo table,
+        .typo ul,
+        blockquote {
+            margin-bottom: 1rem
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: PingFang SC, Helvetica Neue, Verdana, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+            color: #000;
+            line-height: 1.35
+        }
+
+        .typo-h1,
+        .typo-h2,
+        .typo-h3,
+        .typo-h4,
+        .typo-h5,
+        .typo-h6,
+        .typo h1,
+        .typo h2,
+        .typo h3,
+        .typo h4,
+        .typo h5,
+        .typo h6 {
+            margin-top: 1.2em;
+            margin-bottom: .6em;
+            line-height: 1.35
+        }
+
+        .typo-h1,
+        .typo h1 {
+            font-size: 2em
+        }
+
+        .typo-h2,
+        .typo h2 {
+            font-size: 1.8em
+        }
+
+        .typo-h3,
+        .typo h3 {
+            font-size: 1.6em
+        }
+
+        .typo-h4,
+        .typo h4 {
+            font-size: 1.4em
+        }
+
+        .typo-h5,
+        .typo-h6,
+        .typo h5,
+        .typo h6 {
+            font-size: 1.2em
+        }
+
+        .typo-ul,
+        .typo ul {
+            margin-left: 1.3em;
+            list-style: disc
+        }
+
+        .typo-ol,
+        .typo ol {
+            list-style: decimal;
+            margin-left: 1.9em
+        }
+
+        .typo-ol ol,
+        .typo-ol ul,
+        .typo-ul ol,
+        .typo-ul ul,
+        .typo li ol,
+        .typo li ul {
+            margin-bottom: .8em;
+            margin-left: 2em
+        }
+
+        .typo-ol ul,
+        .typo-ul ul,
+        .typo li ul {
+            list-style: circle
+        }
+
+        .typo-table td,
+        .typo-table th,
+        .typo table caption,
+        .typo table td,
+        .typo table th {
+            border: 1px solid #ddd;
+            padding: .5em 1em;
+            color: #666
+        }
+
+        .typo-table th,
+        .typo table th {
+            background: #fbfbfb
+        }
+
+        .typo-table thead th,
+        .typo table thead th {
+            background: hsla(0, 0%, 95%, .7)
+        }
+
+        .typo table caption {
+            border-bottom: none
+        }
+
+        .typo-input,
+        .typo-textarea {
+            -webkit-appearance: none;
+            border-radius: 0
+        }
+
+        .typo-em,
+        .typo em,
+        caption,
+        legend {
+            color: #000;
+            font-weight: inherit
+        }
+
+        .typo-em {
+            position: relative
+        }
+
+        .typo-em:after {
+            position: absolute;
+            top: .65em;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+            content: "\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB"
+        }
+
+        .typo img {
+            max-width: 100%
+        }
+
+        .common-content {
+            font-weight: 400;
+            color: #353535;
+            line-height: 1.75rem;
+            white-space: normal;
+            word-break: normal;
+            font-size: 1rem
+        }
+
+        .common-content img {
+            display: block;
+            max-width: 100%;
+            background-color: #eee
+        }
+
+        .common-content audio,
+        .common-content video {
+            width: 100%;
+            background-color: #eee
+        }
+
+        .common-content center,
+        .common-content font {
+            margin-top: 1rem;
+            display: inline-block
+        }
+
+        .common-content center {
+            width: 100%
+        }
+
+        .common-content pre {
+            margin-top: 1rem;
+            padding-left: 0;
+            padding-right: 0;
+            position: relative;
+            overflow: hidden
+        }
+
+        .common-content pre code {
+            font-size: .8rem;
+            font-family: Consolas, Liberation Mono, Menlo, monospace, Courier;
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            overflow-x: auto
+        }
+
+        .common-content hr {
+            border: none;
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-top: 1px solid #f5f5f5;
+            height: 1px;
+            background: none
+        }
+
+        .common-content b,
+        .common-content h1,
+        .common-content h2,
+        .common-content h3,
+        .common-content h4,
+        .common-content h5,
+        .common-content strong {
+            font-weight: 700
+        }
+
+        .common-content h1,
+        .common-content h2 {
+            font-size: 1.125rem;
+            margin-bottom: .45rem
+        }
+
+        .common-content h3,
+        .common-content h4,
+        .common-content h5 {
+            font-size: 1rem;
+            margin-bottom: .45rem
+        }
+
+        .common-content p {
+            font-weight: 400;
+            color: #353535;
+            margin-top: .15rem
+        }
+
+        .common-content .orange {
+            color: #ff5a05
+        }
+
+        .common-content .reference {
+            font-size: 1rem;
+            color: #888
+        }
+
+        .custom-rich-content h1 {
+            margin-top: 0;
+            font-weight: 400;
+            font-size: 15.25px;
+            border-bottom: 1px solid #eee;
+            line-height: 2.8
+        }
+
+        .custom-rich-content li,
+        .custom-rich-content p {
+            font-size: 14px;
+            color: #888;
+            line-height: 1.6
+        }
+
+        table.hljs-ln {
+            margin-bottom: 0;
+            border-spacing: 0;
+            border-collapse: collapse
+        }
+
+        table.hljs-ln,
+        table.hljs-ln tbody,
+        table.hljs-ln td,
+        table.hljs-ln tr {
+            box-sizing: border-box
+        }
+
+        table.hljs-ln td {
+            padding: 0;
+            border: 0
+        }
+
+        table.hljs-ln td.hljs-ln-numbers {
+            min-width: 15px;
+            color: rgba(27, 31, 35, .3);
+            text-align: right;
+            white-space: nowrap;
+            cursor: pointer;
+            user-select: none
+        }
+
+        table.hljs-ln td.hljs-ln-code,
+        table.hljs-ln td.hljs-ln-numbers {
+            font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
+            font-size: 12px;
+            line-height: 20px;
+            vertical-align: top
+        }
+
+        table.hljs-ln td.hljs-ln-code {
+            position: relative;
+            padding-right: 10px;
+            padding-left: 10px;
+            overflow: visible;
+            color: #24292e;
+            word-wrap: normal;
+            white-space: pre
+        }
+
+        video::-webkit-media-controls {
+            overflow: hidden !important
+        }
+
+        video::-webkit-media-controls-enclosure {
+            width: calc(100% + 32px);
+            margin-left: auto
+        }
+
+        ._29HP61GA_0 {
+            max-width:800px;
+            margin:0 auto;
+            margin-bottom: 20px;
+            font-weight: 400;
+            color: #353535;
+            line-height: 1.76;
+            white-space: normal;
+            word-break: normal;
+            font-size: 17px;
+            -webkit-transition: background-color .3s ease;
+            transition: background-color .3s ease
+        }
+
+        ._29HP61GA_0 .MathJax_Display {
+            overflow: auto
+        }
+
+        ._29HP61GA_0 .poster {
+            position: fixed;
+            left: -10000px;
+            top: -10000px;
+            overflow: hidden;
+            padding: 1rem;
+            background: #ececec
+        }
+
+        ._29HP61GA_0 .richcontent-pre-copy {
+            font-size: 13px;
+            color: #888;
+            position: absolute;
+            right: 1em;
+            top: .5em;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none
+        }
+
+        ._29HP61GA_0 .richcontent-pre-copy .iconfont {
+            font-size: 12px;
+            margin-right: .2em
+        }
+
+        ._29HP61GA_0 a {
+            color: #fa8919;
+            border-bottom: 1px solid #fa8919
+        }
+
+        ._29HP61GA_0 img {
+            display: block;
+            max-width: 100%;
+            position: relative;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+            background-color: #eee;
+            vertical-align: top;
+            border-radius: 0
+        }
+
+        ._29HP61GA_0 audio,
+        ._29HP61GA_0 video {
+            width: 100%;
+            background-color: #eee
+        }
+
+        ._29HP61GA_0 pre {
+            margin-top: 16px;
+            padding: 34px 0 0;
+            margin-bottom: 30px;
+            position: relative;
+            border-radius: 6px;
+            background: rgba(246, 247, 251, .749);
+            border: 0
+        }
+
+        ._29HP61GA_0 pre code {
+            font-size: 12px;
+            font-family: Consolas, Liberation Mono, Menlo, monospace, Courier;
+            display: block;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            margin-left: 16px;
+            margin-right: 16px;
+            overflow-x: scroll
+        }
+
+        ._29HP61GA_0 pre code:after {
+            content: "";
+            height: 30px;
+            width: 100%;
+            display: block
+        }
+
+        ._29HP61GA_0 hr {
+            border: none;
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-top: 1px solid #f5f5f5;
+            height: 1px;
+            background: none
+        }
+
+        ._29HP61GA_0 h1,
+        ._29HP61GA_0 h2,
+        ._29HP61GA_0 h3,
+        ._29HP61GA_0 h4,
+        ._29HP61GA_0 h5 {
+            margin-bottom: 20px;
+            margin-top: 0;
+            font-weight: 700
+        }
+
+        ._29HP61GA_0 b,
+        ._29HP61GA_0 strong {
+            font-weight: 700
+        }
+
+        ._29HP61GA_0 h1 {
+            font-size: 21px
+        }
+
+        ._29HP61GA_0 h2 {
+            font-size: 20px
+        }
+
+        ._29HP61GA_0 h3 {
+            font-size: 19px
+        }
+
+        ._29HP61GA_0 h4 {
+            font-size: 18px
+        }
+
+        ._29HP61GA_0 h5 {
+            font-size: 17px
+        }
+
+        ._29HP61GA_0 center,
+        ._29HP61GA_0 p {
+            font-weight: 400;
+            color: #353535;
+            margin-top: 0;
+            margin-bottom: 30px;
+            word-break: break-word
+        }
+
+        ._29HP61GA_0 center {
+            text-align: center
+        }
+
+        ._29HP61GA_0 blockquote {
+            margin-top: 0;
+            margin-bottom: 34px;
+            border-left: 3px solid #e8e8e8;
+            padding-left: 17px;
+            color: #353535
+        }
+
+        ._29HP61GA_0 blockquote p {
+            margin-top: 0;
+            margin-bottom: 0
+        }
+
+        ._29HP61GA_0 ol,
+        ._29HP61GA_0 ul {
+            margin-bottom: 30px
+        }
+
+        ._29HP61GA_0 ol p,
+        ._29HP61GA_0 ul p {
+            margin-top: 0;
+            margin-bottom: 0
+        }
+
+        ._29HP61GA_0 ol {
+            list-style: decimal;
+            margin-left: 20px
+        }
+
+        ._29HP61GA_0 ul li {
+            padding-left: 17px;
+            position: relative;
+            margin-bottom: 10px
+        }
+
+        ._29HP61GA_0 ul li:after {
+            content: "";
+            height: 6px;
+            width: 6px;
+            border-radius: 50%;
+            background: #353535;
+            position: absolute;
+            top: 10px;
+            left: 0
+        }
+
+        ._29HP61GA_0 .orange {
+            color: #fa8919
+        }
+
+        ._29HP61GA_0 .reference {
+            color: #888
+        }
+
+        ._29HP61GA_0 .m-right {
+            text-align: right
+        }
+
+        ._29HP61GA_0 .m-center {
+            text-align: center;
+            display: block
+        }
+
+        ._29HP61GA_0 .m-gray {
+            color: #888
+        }
+
+        ._29HP61GA_0 .m-small {
+            font-size: 15px
+        }
+
+        ._29HP61GA_0 table.hljs-ln {
+            margin-bottom: 0;
+            border-spacing: 0;
+            border-collapse: collapse
+        }
+
+        ._29HP61GA_0 table.hljs-ln,
+        ._29HP61GA_0 table.hljs-ln tbody,
+        ._29HP61GA_0 table.hljs-ln td,
+        ._29HP61GA_0 table.hljs-ln tr {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box
+        }
+
+        ._29HP61GA_0 table.hljs-ln td {
+            padding: 0;
+            border: 0
+        }
+
+        ._29HP61GA_0 table.hljs-ln td.hljs-ln-numbers {
+            min-width: 15px;
+            font-size: 12px;
+            color: rgba(27, 31, 35, .3);
+            text-align: right;
+            white-space: nowrap;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none
+        }
+
+        ._29HP61GA_0 table.hljs-ln td.hljs-ln-code,
+        ._29HP61GA_0 table.hljs-ln td.hljs-ln-numbers {
+            font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
+            line-height: 20px;
+            vertical-align: top
+        }
+
+        ._29HP61GA_0 table.hljs-ln td.hljs-ln-code {
+            position: relative;
+            padding-right: 10px;
+            padding-left: 10px;
+            overflow: visible;
+            font-size: 13px;
+            color: #666;
+            word-wrap: normal;
+            white-space: pre
+        }
+
+    </style>
+</head>
+<body>
+<div class="_29HP61GA_0">
+<h1>04-竞品生态：真正有效的竞品分析怎么做？</h1>
+<p>你好，我是苏杰。今天让我们一起来聊聊竞品分析的话题，这是第一轮MVP，Paperwork的第二讲。</p><p>顺着上一讲，我们理解了用户之后，就要加深对已有的解决方案，也就是各种竞品的理解了。</p><p>每个人做产品创新的时候，都会分析现状，其中的很大一块就是分析竞争对手，我们把这事儿称作竞品分析。</p><p>我最常见到的竞品分析是这样的，挑选了三五个竞品，然后做一个表格。</p><p><img src="https://static001.geekbang.org/resource/image/5c/86/5cde709be004e35d45faaf09e0b37986.png" alt=""></p><p>横向的表头是我们的产品、竞争对手ABC，纵向的表头是每一项功能特性，然后在表格的每一格里，打勾勾、写说明：这个功能我有A没有，那个功能我没有B有，还有个功能我和C都有，但是C要强一点点……</p><p>这样的竞品分析固然有价值，但在我看来，过于狭隘了，它只能带来渐进式的产品创新，如果你想要做到颠覆式或者说跳跃式的创新，就远远不够了。</p><h2>竞品分析的有效思路</h2><p>这一讲里，我给你一个框架，还是从创新最简单的思路出发，<span class="orange">先搞清楚问题，再搞清楚解决方案</span>。通过“问题”和“方案”这两个指标的异同，来界定竞品生态的组成。</p><p><img src="https://static001.geekbang.org/resource/image/0a/e8/0a7da2448e8ce8fe0c61de3f1fb21be8.png" alt=""></p><p>对于问题和方案的异同，我们可以用象限概念来帮助理解，把与自己产品有关系的潜在竞争对手分为四大类，问题同方案同（第一象限）、问题同方案异（第二象限）、问题异方案同（第四象限）、问题异方案异（第三象限），接下来我们依次说明。</p><!-- [[[read_end]]] --><h3>问题同方案同</h3><p>这是直接竞品，上面我提到的那种列表格分析的方法，就只适用于直接竞品。</p><p>在商业竞争中，非常常见的局面是你提到一个产品，立马就能找到一个和它对标的产品，比如肯德基和麦当劳、蒙牛和伊利、iOS和Android，这就是典型的直接竞品。</p><p>但针对问题同方案同的直接竞品分析，我想引用一句话来解释：打败Google的不会是一个搜索引擎公司，打败微信的也不会是另一个微信。</p><p>这个意思就是说，直接竞品的厮杀通常是渐进式的创新，此消彼长，但很难做到颠覆性的创新，也无法做到直接把对手按在地上摩擦。</p><h3>问题同方案异</h3><p>所以，我们讲第二种——问题同方案异。</p><p>从这一种竞品开始，都是间接竞品了，<span class="orange">用不同方案解决相似问题的产品，往往会成为行业里颠覆巨头的下一代产品</span>。</p><p>比如说越来越方便的高铁对飞机的冲击，外卖市场对方便面的冲击，手机的拍照模块对傻瓜相机的冲击，咖啡对茶饮料的冲击。</p><p>我们做竞品分析的时候，对这类竞品要特别关注，它们可以帮助你透过解决方案本身，更深刻地理解用户需求的本质到底是什么。</p><h3>问题异方案同</h3><p>这类产品，<span class="orange">是我们学习的对象</span>。</p><p>比如你做的是摄影社区，他做的是母婴社区，面向的用户需求完全不同，但解决方案有很多相似之处，都可以有论坛、私信、积分、好友关系等模块，互相可以交流学习。</p><p>不过，如果这样的产品存在跨行业迁移的可能，那就也是广义竞品了，比如京东原来只卖3C数码，积累了用户和基础设施之后，卖起书来一点都不比当当差，星巴克原来只卖咖啡，2019年也推出了茶饮料，这些都是鲜活的案例。</p><h3>问题异方案异</h3><p>最后一种，问题异方案异。</p><p>听起来很奇怪，问题不一样，解决方案也不一样，这样的产品好像和你的产品八竿子打不着，为什么也会成为间接竞品呢？这有两种可能。</p><p>第一种，你们<span class="orange">占用了相似的不可再生资源</span>，比如<strong>时间</strong>。</p><p>2016年年底，罗振宇提出了一个叫“国民总时间”的概念，说的是人们的时间已经被各种产品占满了，再要用你的产品，就必须放弃其他某些产品。比如每天上下班通勤的路上，用户用网易云音乐听歌，就没法在得到里听课，虽然这两个产品想解决的问题和解决方案都有很大差异。</p><p>这个不可再生资源还可能是<strong>金钱</strong>，用户的钱就那么多，比如快过年的时候，你有一万左右的闲钱，如果你选择出国游，就没法买最新的iPhone 11。</p><p>不可再生的资源还可能是<strong>人才</strong>，这是从公司角度看的。有人问Google，你们的竞争对手是谁，他们说是美国国家航空航天局（NASA），而不是Apple、Microsoft、Amazon这些公司，因为NASA抢走了很多高级人才，而且是用几分之一的薪水，这个人才竞争力太可怕了。</p><p>除了占用相似的不可再生资源，<span class="orange">还有一种问题异方案异的竞争对手，可能来自你产品产业链条中的上下游</span>。</p><p>任何行业里的某个角色，如果做大做强了，都很可能忍不住要占据产业链条里更多的位置，以获取更多的利润。</p><p>比如宝马原来是做发动机的，BMW直译过来就是“巴伐利亚发动机制造厂”，后来往下游渗透，自己也做了车。比如Costco，好市多超市原来只是卖其他品牌的货，后来往上游发展，推出了自由品牌的商品叫Kirkland，Kirkland其实是一个地名，就是Costco这家公司曾经的总部所在地。</p><p>到这里，我们就把所有的竞品类型都扫了一遍，已经<span class="orange">了解了一个产品的竞品生态环境的主要构成</span>，接下来我们用一个产品例子来巩固前面的内容，看看它的竞品生态是什么样子。</p><h2>今日案例：淘宝商城轻奢频道</h2><p>多年以前，我在天猫（当时还叫淘宝商城）负责过一个垂直市场，奢侈品频道，因为当时还是早期，所以主要买的货品是轻奢（不那么贵的入门级奢侈品品牌）和经典奢侈品的老款旧款库存。</p><p>想搞清楚这个轻奢频道的竞品都有哪些，你可以用前面说的用分象限的竞品分析思路来寻找。这里我不穷举，用问题方案组合的四个思路为这个奢侈品频道各举一例。</p><p><img src="https://static001.geekbang.org/resource/image/40/a8/409305771ccdc194bfc3ac6d5ccf4da8.png" alt=""></p><p><strong>问题同方案同</strong>：唯品会，直接竞争对手。</p><p><strong>问题同方案异</strong>：线下的奥特莱斯，是传统的间接竞争对手，但毕竟奥莱不是每个城市都有，有的也通常在郊区，来回路上的时间成本不低。</p><p><strong>问题异方案同</strong>：快消品牌的服装，也有线上清库存的渠道，他们如果做得足够好，积累了足够多的流量，也可以转头卖奢侈品。</p><p><strong>问题异方案异</strong>：产品的目标用户，他们的其他提升生活品质的消费，都会导致他们在天猫奢侈品频道的消费降低。</p><p>讲到这里，不知道你有没有理解，最最广义的竞品，它的本质到底是什么？</p><p>在我看来，<span class="orange">只要两个产品的目标用户是同一群人或者组织，那这两个产品在某种程度上都会形成竞争关系。</span>当然，竞争与合作在这个时代是可以并存的，<strong>竞争不是你死我活，也可以是互相成就。</strong>所有的广义竞品一起，组成了一个跨公司的产品矩阵，共同服务着某一群用户。</p><h2>生活中的竞品分析</h2><p>我们在用一些生活中的例子，增加你对竞品分析的感觉。</p><p>装修的时候，原来很多人都会挑选微波炉，可这个“选择”无非是在各种品牌中，国产的、进口的，然后再选择一些功能的差异，比如开门方式，是否有光波加热等等。</p><p>但最近一次我在做选择时候，我太太告诉我还有烤箱、蒸箱这样的选项。</p><p>我的视野一下子就被打开了，对“加热食物的电器”这个领域的认知也提升了不少。当你了解了它们各自的加热原理，适用场景以后，会发现选择起来会更加有的放矢。</p><p>做产品创新就和“选加热食物的电器”有相似之处。</p><p><span class="orange">当你的认知太过局限的时候，很多选择根本不存在，也就很难设计出更优的解决方案。</span>打开对广义竞品的视野是产品创新的第一步，是非常关键的。</p><p>说起来上班的交通方式也是个例子。我曾经想过自己从家到公司到底有几种方式，各自的优劣和适用场景是什么，这其实也是一种竞品分析。当时，我家到公司大约8公里，因为是自己的公司，所以上下班时间相对自由。</p><p>第一个选择，走路。可能很多人没有这个选项，但是，在天气很好，而且有几个长电话要打的时候，我很喜欢这个选项，大约要走近两个小时，还顺便锻炼了身体。</p><p>第二个选择，骑车，可以骑自己的山地车，也可以骑共享单车，共享单车又分为杭州市政府搞的有桩公共自行车和多家商业公司的单车。天气好的时候我也很喜欢，稍微活动一下，路程大概半个小时的样子。</p><p>第三个选择，电动车，我自己没有，但共享电动车有很多种选择。</p><p>第四个选择，开车，如果是早晚高峰出行，这是我最不喜欢的方式，除了开自己的车，还有共享汽车，短途我还真的刻意试过一次。</p><p>第五个选择，坐车，可以打车、出租车、快车专车、顺风车，这些我都用过，还可以选公交车，只不过班次太少，我还没有尝试过。</p><p>你看，其实用户的选择非常多，你的产品要被用户选中，并不是只有一两个对手。</p><h2>小结</h2><p>其实，我在与创业者交流的过程中，有一个必问的问题，那就是——<span class="orange">你的竞争对手是谁？</span></p><p>我最怕听到的答案就是——我没有竞争对手。</p><p>90%的情况下，没有竞争对手的原因是因为市场不存在、需求不存在。剩下10%的原因，是因为创业者把竞争对手理解得太狭隘了。</p><p>竞争对手不仅仅是哪些很相似的产品、或者解决相似问题的产品，竞争对手其实是一整个生态，它们共同服务着你的用户，你可以去回顾上一讲的内容，结合对用户的理解，去了解更多的用户故事。了解用户每天在相关领域下的各种所作所为、所思所想后，才能帮助我们更全面地发现竞品。</p><h2>思考题</h2><p>希望你能重新审视一下自己产品的竞争对手列表，好好地做一个竞品分析，分析一下你自己的竞品生态。</p><ul>
+<li>你目前把谁当做竞品，它属于哪一类竞品？</li>
+<li>你能否根据今天说的四种思路为自己找出真正值得研究的竞品？</li>
+</ul><p>你可以在留言区写出自己的答案，与我和其他同学一起讨论，也欢迎你把文章分享给你的朋友。</p><p><img src="https://static001.geekbang.org/resource/image/ed/61/ed4697472e73b25a60c8106148cc0761.jpg" alt="unpreview"></p><h2>精选留言：</h2>
+        <ul>
+        
+<li>
+    <div>
+        <div style="color: #888;font-size:15.25px;font-weight:400;line-height:1.2">
+            郭凯强  2019-10-28 08:25:43
+        </div>
+        <div style="color:#353535;font-weight:400;white-space:normal;word-break:break-all;line-height:1.6">
+            四象限分析法有种醍醐灌顶的感觉…理论跟实际结合的教学方式也很赞 [4赞]
+        </div>
+        <br/>
+<div>
+    <div style="color:#888;font-size:15.25px;font-weight:400;line-height:1.2">作者回复2019-10-28 19:07:06</div>
+    <div style="color:#353535;font-weight:400;white-space:normal;word-break:break-all;line-height:1.6">有用就好，欢迎推荐给朋友们</div>
+</div>
+            
+    </div>
+</li>
+            
+<br/>
+
+<li>
+    <div>
+        <div style="color: #888;font-size:15.25px;font-weight:400;line-height:1.2">
+            森淼  2019-10-28 10:38:29
+        </div>
+        <div style="color:#353535;font-weight:400;white-space:normal;word-break:break-all;line-height:1.6">
+            四象限分析法可以很好地应用在工作中，感谢分享 🙏 [1赞]
+        </div>
+        <br/>
+<div>
+    <div style="color:#888;font-size:15.25px;font-weight:400;line-height:1.2">作者回复2019-10-28 19:08:23</div>
+    <div style="color:#353535;font-weight:400;white-space:normal;word-break:break-all;line-height:1.6">有用的话，分享给同事朋友们哦，：）</div>
+</div>
+            
+    </div>
+</li>
+            
+<br/>
+
+<li>
+    <div>
+        <div style="color: #888;font-size:15.25px;font-weight:400;line-height:1.2">
+            乐开发  2019-10-29 08:10:49
+        </div>
+        <div style="color:#353535;font-weight:400;white-space:normal;word-break:break-all;line-height:1.6">
+            狭义上说，公司的同事是竞品。广义上说，朋友同学是竞品。<br> 
+        </div>
+        <br/>
+<div>
+    <div style="color:#888;font-size:15.25px;font-weight:400;line-height:1.2">作者回复2019-10-29 10:22:45</div>
+    <div style="color:#353535;font-weight:400;white-space:normal;word-break:break-all;line-height:1.6">竞合。。。</div>
+</div>
+            
+    </div>
+</li>
+            
+<br/>
+
+<li>
+    <div>
+        <div style="color: #888;font-size:15.25px;font-weight:400;line-height:1.2">
+            Limo  2019-10-29 00:08:30
+        </div>
+        <div style="color:#353535;font-weight:400;white-space:normal;word-break:break-all;line-height:1.6">
+            嗯，醍醐灌顶，回去改改BP 
+        </div>
+        <br/>
+<div>
+    <div style="color:#888;font-size:15.25px;font-weight:400;line-height:1.2">作者回复2019-10-29 10:22:40</div>
+    <div style="color:#353535;font-weight:400;white-space:normal;word-break:break-all;line-height:1.6">哈哈</div>
+</div>
+            
+    </div>
+</li>
+            
+<br/>
+
+<li>
+    <div>
+        <div style="color: #888;font-size:15.25px;font-weight:400;line-height:1.2">
+            肖程元felix  2019-10-28 23:02:30
+        </div>
+        <div style="color:#353535;font-weight:400;white-space:normal;word-break:break-all;line-height:1.6">
+            从另一个视角阐述了直接竞品、间接竞品和潜在竞品，而且这个四象限法很好用，期待接下来的课程 
+        </div>
+        <br/>
+<div>
+    <div style="color:#888;font-size:15.25px;font-weight:400;line-height:1.2">作者回复2019-10-29 10:22:17</div>
+    <div style="color:#353535;font-weight:400;white-space:normal;word-break:break-all;line-height:1.6">主要说一些框架，具体怎么做，还得自己琢磨</div>
+</div>
+            
+    </div>
+</li>
+            
+<br/>
+
+<li>
+    <div>
+        <div style="color: #888;font-size:15.25px;font-weight:400;line-height:1.2">
+            joe浅蓝  2019-10-28 15:51:44
+        </div>
+        <div style="color:#353535;font-weight:400;white-space:normal;word-break:break-all;line-height:1.6">
+            这次课程的内容听完眼前一亮，作为智能家居的从业者确实需要重新审视我们的竞品了，不只是单一品类的直接竞品，横向还应当考虑行业内其他提供类似产品的潜在对手，甚至向着B端提供服务的企业去考虑，纵向也应当考虑智能家居产业链内隐藏的竞争关系，很受益！ 
+        </div>
+        <br/>
+<div>
+    <div style="color:#888;font-size:15.25px;font-weight:400;line-height:1.2">作者回复2019-10-28 19:07:30</div>
+    <div style="color:#353535;font-weight:400;white-space:normal;word-break:break-all;line-height:1.6">欢迎推荐给同事们哦</div>
+</div>
+            
+    </div>
+</li>
+            
+<br/>
+
+<li>
+    <div>
+        <div style="color: #888;font-size:15.25px;font-weight:400;line-height:1.2">
+            R.  2019-10-28 15:41:00
+        </div>
+        <div style="color:#353535;font-weight:400;white-space:normal;word-break:break-all;line-height:1.6">
+            老师的四象限分析法解决了我近期很困惑的问题 非常感谢 
+        </div>
+        <br/>
+<div>
+    <div style="color:#888;font-size:15.25px;font-weight:400;line-height:1.2">作者回复2019-10-28 19:07:43</div>
+    <div style="color:#353535;font-weight:400;white-space:normal;word-break:break-all;line-height:1.6">不谢，欢迎推荐给朋友们</div>
+</div>
+            
+    </div>
+</li>
+            
+<br/>
+
+<li>
+    <div>
+        <div style="color: #888;font-size:15.25px;font-weight:400;line-height:1.2">
+            我是主角我不能死  2019-10-28 14:08:26
+        </div>
+        <div style="color:#353535;font-weight:400;white-space:normal;word-break:break-all;line-height:1.6">
+            系统的总结能力也是一个产品必备的素质之一，跟随老师的步伐，也准备试着写一点东西 
+        </div>
+        <br/>
+<div>
+    <div style="color:#888;font-size:15.25px;font-weight:400;line-height:1.2">作者回复2019-10-28 19:07:54</div>
+    <div style="color:#353535;font-weight:400;white-space:normal;word-break:break-all;line-height:1.6">嗯，动起来，：）</div>
+</div>
+            
+    </div>
+</li>
+            
+<br/>
+
+<li>
+    <div>
+        <div style="color: #888;font-size:15.25px;font-weight:400;line-height:1.2">
+            未未的未来  2019-10-28 11:58:23
+        </div>
+        <div style="color:#353535;font-weight:400;white-space:normal;word-break:break-all;line-height:1.6">
+            竞品分析<br>问题同方案同：同行业的系统集成商。<br>问题同方案异：视频、安防厂商。<br>问题异方案同：营收、客服厂商。<br>问题异方案异：OA厂商，ERP厂商，目标客户的其他“消费”。<br>看他们之前都是在做问题同方案同的竞品分析，看到老师四象限方法，有种柳暗花明又一村的感觉，粗略分析了下我们的竞品。 
+        </div>
+        <br/>
+<div>
+    <div style="color:#888;font-size:15.25px;font-weight:400;line-height:1.2">作者回复2019-10-28 19:08:12</div>
+    <div style="color:#353535;font-weight:400;white-space:normal;word-break:break-all;line-height:1.6">嗯，这样会全面很多</div>
+</div>
+            
+    </div>
+</li>
+            
+<br/>
+
+<li>
+    <div>
+        <div style="color: #888;font-size:15.25px;font-weight:400;line-height:1.2">
+            Geek_sylvester  2019-10-28 08:50:50
+        </div>
+        <div style="color:#353535;font-weight:400;white-space:normal;word-break:break-all;line-height:1.6">
+            这两天杭州天气比较凉爽，自己也闲的时候思考了一下通勤方式，公交，开车，地铁，骑车的优劣和场景条件。今天听了这节课后，有了更广的认识 
+        </div>
+        <br/>
+<div>
+    <div style="color:#888;font-size:15.25px;font-weight:400;line-height:1.2">作者回复2019-10-28 19:06:43</div>
+    <div style="color:#353535;font-weight:400;white-space:normal;word-break:break-all;line-height:1.6">可以多试试没用过的方法</div>
+</div>
+            
+    </div>
+</li>
+            </ul>
+</div>
+</body>
+</html>

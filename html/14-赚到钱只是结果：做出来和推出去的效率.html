@@ -1,0 +1,952 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>14-赚到钱只是结果：做出来和推出去的效率</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <style>
+        html {
+            color: #333;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            text-rendering: optimizelegibility;
+            font-family: Helvetica Neue, PingFang SC, Verdana, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif
+        }
+
+        html.borderbox *,
+        html.borderbox :after,
+        html.borderbox :before {
+            box-sizing: border-box
+        }
+
+        article,
+        aside,
+        blockquote,
+        body,
+        button,
+        code,
+        dd,
+        details,
+        dl,
+        dt,
+        fieldset,
+        figcaption,
+        figure,
+        footer,
+        form,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        header,
+        hr,
+        input,
+        legend,
+        li,
+        menu,
+        nav,
+        ol,
+        p,
+        pre,
+        section,
+        td,
+        textarea,
+        th,
+        ul {
+            margin: 0;
+            padding: 0
+        }
+
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        menu,
+        nav,
+        section {
+            display: block
+        }
+
+        audio,
+        canvas,
+        video {
+            display: inline-block
+        }
+
+        body,
+        button,
+        input,
+        select,
+        textarea {
+            font: 300 1em/1.8 PingFang SC, Lantinghei SC, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, Helvetica, sans-serif
+        }
+
+        button::-moz-focus-inner,
+        input::-moz-focus-inner {
+            padding: 0;
+            border: 0
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0
+        }
+
+        fieldset,
+        img {
+            border: 0
+        }
+
+        blockquote {
+            position: relative;
+            color: #999;
+            font-weight: 400;
+            border-left: 1px solid #1abc9c;
+            padding-left: 1em;
+            margin: 1em 3em 1em 2em
+        }
+
+        @media only screen and (max-width: 640px) {
+            blockquote {
+                margin: 1em 0
+            }
+        }
+
+        abbr,
+        acronym {
+            border-bottom: 1px dotted;
+            font-variant: normal
+        }
+
+        abbr {
+            cursor: help
+        }
+
+        del {
+            text-decoration: line-through
+        }
+
+        address,
+        caption,
+        cite,
+        code,
+        dfn,
+        em,
+        th,
+        var {
+            font-style: normal;
+            font-weight: 400
+        }
+
+        ol,
+        ul {
+            list-style: none
+        }
+
+        caption,
+        th {
+            text-align: left
+        }
+
+        q:after,
+        q:before {
+            content: ""
+        }
+
+        sub,
+        sup {
+            font-size: 75%;
+            line-height: 0;
+            position: relative
+        }
+
+        :root sub,
+        :root sup {
+            vertical-align: baseline
+        }
+
+        sup {
+            top: -.5em
+        }
+
+        sub {
+            bottom: -.25em
+        }
+
+        a {
+            color: #1abc9c
+        }
+
+        a:hover {
+            text-decoration: underline
+        }
+
+        .typo a {
+            border-bottom: 1px solid #1abc9c
+        }
+
+        .typo a:hover {
+            border-bottom-color: #555;
+            color: #555
+        }
+
+        .typo a:hover,
+        a,
+        ins {
+            text-decoration: none
+        }
+
+        .typo-u,
+        u {
+            text-decoration: underline
+        }
+
+        mark {
+            background: #fffdd1;
+            border-bottom: 1px solid #ffedce;
+            padding: 2px;
+            margin: 0 5px
+        }
+
+        code,
+        pre,
+        pre tt {
+            font-family: Courier, Courier New, monospace
+        }
+
+        pre {
+            background: hsla(0, 0%, 97%, .7);
+            border: 1px solid #ddd;
+            padding: 1em 1.5em;
+            display: block;
+            -webkit-overflow-scrolling: touch
+        }
+
+        hr {
+            border: none;
+            border-bottom: 1px solid #cfcfcf;
+            margin-bottom: .8em;
+            height: 10px
+        }
+
+        .typo-small,
+        figcaption,
+        small {
+            font-size: .9em;
+            color: #888
+        }
+
+        b,
+        strong {
+            font-weight: 700;
+            color: #000
+        }
+
+        [draggable] {
+            cursor: move
+        }
+
+        .clearfix:after,
+        .clearfix:before {
+            content: "";
+            display: table
+        }
+
+        .clearfix:after {
+            clear: both
+        }
+
+        .clearfix {
+            zoom: 1
+        }
+
+        .textwrap,
+        .textwrap td,
+        .textwrap th {
+            word-wrap: break-word;
+            word-break: break-all
+        }
+
+        .textwrap-table {
+            table-layout: fixed
+        }
+
+        .serif {
+            font-family: Palatino, Optima, Georgia, serif
+        }
+
+        .typo-dl,
+        .typo-form,
+        .typo-hr,
+        .typo-ol,
+        .typo-p,
+        .typo-pre,
+        .typo-table,
+        .typo-ul,
+        .typo dl,
+        .typo form,
+        .typo hr,
+        .typo ol,
+        .typo p,
+        .typo pre,
+        .typo table,
+        .typo ul,
+        blockquote {
+            margin-bottom: 1rem
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: PingFang SC, Helvetica Neue, Verdana, Microsoft Yahei, Hiragino Sans GB, Microsoft Sans Serif, WenQuanYi Micro Hei, sans-serif;
+            color: #000;
+            line-height: 1.35
+        }
+
+        .typo-h1,
+        .typo-h2,
+        .typo-h3,
+        .typo-h4,
+        .typo-h5,
+        .typo-h6,
+        .typo h1,
+        .typo h2,
+        .typo h3,
+        .typo h4,
+        .typo h5,
+        .typo h6 {
+            margin-top: 1.2em;
+            margin-bottom: .6em;
+            line-height: 1.35
+        }
+
+        .typo-h1,
+        .typo h1 {
+            font-size: 2em
+        }
+
+        .typo-h2,
+        .typo h2 {
+            font-size: 1.8em
+        }
+
+        .typo-h3,
+        .typo h3 {
+            font-size: 1.6em
+        }
+
+        .typo-h4,
+        .typo h4 {
+            font-size: 1.4em
+        }
+
+        .typo-h5,
+        .typo-h6,
+        .typo h5,
+        .typo h6 {
+            font-size: 1.2em
+        }
+
+        .typo-ul,
+        .typo ul {
+            margin-left: 1.3em;
+            list-style: disc
+        }
+
+        .typo-ol,
+        .typo ol {
+            list-style: decimal;
+            margin-left: 1.9em
+        }
+
+        .typo-ol ol,
+        .typo-ol ul,
+        .typo-ul ol,
+        .typo-ul ul,
+        .typo li ol,
+        .typo li ul {
+            margin-bottom: .8em;
+            margin-left: 2em
+        }
+
+        .typo-ol ul,
+        .typo-ul ul,
+        .typo li ul {
+            list-style: circle
+        }
+
+        .typo-table td,
+        .typo-table th,
+        .typo table caption,
+        .typo table td,
+        .typo table th {
+            border: 1px solid #ddd;
+            padding: .5em 1em;
+            color: #666
+        }
+
+        .typo-table th,
+        .typo table th {
+            background: #fbfbfb
+        }
+
+        .typo-table thead th,
+        .typo table thead th {
+            background: hsla(0, 0%, 95%, .7)
+        }
+
+        .typo table caption {
+            border-bottom: none
+        }
+
+        .typo-input,
+        .typo-textarea {
+            -webkit-appearance: none;
+            border-radius: 0
+        }
+
+        .typo-em,
+        .typo em,
+        caption,
+        legend {
+            color: #000;
+            font-weight: inherit
+        }
+
+        .typo-em {
+            position: relative
+        }
+
+        .typo-em:after {
+            position: absolute;
+            top: .65em;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+            content: "\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB\30FB"
+        }
+
+        .typo img {
+            max-width: 100%
+        }
+
+        .common-content {
+            font-weight: 400;
+            color: #353535;
+            line-height: 1.75rem;
+            white-space: normal;
+            word-break: normal;
+            font-size: 1rem
+        }
+
+        .common-content img {
+            display: block;
+            max-width: 100%;
+            background-color: #eee
+        }
+
+        .common-content audio,
+        .common-content video {
+            width: 100%;
+            background-color: #eee
+        }
+
+        .common-content center,
+        .common-content font {
+            margin-top: 1rem;
+            display: inline-block
+        }
+
+        .common-content center {
+            width: 100%
+        }
+
+        .common-content pre {
+            margin-top: 1rem;
+            padding-left: 0;
+            padding-right: 0;
+            position: relative;
+            overflow: hidden
+        }
+
+        .common-content pre code {
+            font-size: .8rem;
+            font-family: Consolas, Liberation Mono, Menlo, monospace, Courier;
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            overflow-x: auto
+        }
+
+        .common-content hr {
+            border: none;
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-top: 1px solid #f5f5f5;
+            height: 1px;
+            background: none
+        }
+
+        .common-content b,
+        .common-content h1,
+        .common-content h2,
+        .common-content h3,
+        .common-content h4,
+        .common-content h5,
+        .common-content strong {
+            font-weight: 700
+        }
+
+        .common-content h1,
+        .common-content h2 {
+            font-size: 1.125rem;
+            margin-bottom: .45rem
+        }
+
+        .common-content h3,
+        .common-content h4,
+        .common-content h5 {
+            font-size: 1rem;
+            margin-bottom: .45rem
+        }
+
+        .common-content p {
+            font-weight: 400;
+            color: #353535;
+            margin-top: .15rem
+        }
+
+        .common-content .orange {
+            color: #ff5a05
+        }
+
+        .common-content .reference {
+            font-size: 1rem;
+            color: #888
+        }
+
+        .custom-rich-content h1 {
+            margin-top: 0;
+            font-weight: 400;
+            font-size: 15.25px;
+            border-bottom: 1px solid #eee;
+            line-height: 2.8
+        }
+
+        .custom-rich-content li,
+        .custom-rich-content p {
+            font-size: 14px;
+            color: #888;
+            line-height: 1.6
+        }
+
+        table.hljs-ln {
+            margin-bottom: 0;
+            border-spacing: 0;
+            border-collapse: collapse
+        }
+
+        table.hljs-ln,
+        table.hljs-ln tbody,
+        table.hljs-ln td,
+        table.hljs-ln tr {
+            box-sizing: border-box
+        }
+
+        table.hljs-ln td {
+            padding: 0;
+            border: 0
+        }
+
+        table.hljs-ln td.hljs-ln-numbers {
+            min-width: 15px;
+            color: rgba(27, 31, 35, .3);
+            text-align: right;
+            white-space: nowrap;
+            cursor: pointer;
+            user-select: none
+        }
+
+        table.hljs-ln td.hljs-ln-code,
+        table.hljs-ln td.hljs-ln-numbers {
+            font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
+            font-size: 12px;
+            line-height: 20px;
+            vertical-align: top
+        }
+
+        table.hljs-ln td.hljs-ln-code {
+            position: relative;
+            padding-right: 10px;
+            padding-left: 10px;
+            overflow: visible;
+            color: #24292e;
+            word-wrap: normal;
+            white-space: pre
+        }
+
+        video::-webkit-media-controls {
+            overflow: hidden !important
+        }
+
+        video::-webkit-media-controls-enclosure {
+            width: calc(100% + 32px);
+            margin-left: auto
+        }
+
+        ._29HP61GA_0 {
+            max-width:800px;
+            margin:0 auto;
+            margin-bottom: 20px;
+            font-weight: 400;
+            color: #353535;
+            line-height: 1.76;
+            white-space: normal;
+            word-break: normal;
+            font-size: 17px;
+            -webkit-transition: background-color .3s ease;
+            transition: background-color .3s ease
+        }
+
+        ._29HP61GA_0 .MathJax_Display {
+            overflow: auto
+        }
+
+        ._29HP61GA_0 .poster {
+            position: fixed;
+            left: -10000px;
+            top: -10000px;
+            overflow: hidden;
+            padding: 1rem;
+            background: #ececec
+        }
+
+        ._29HP61GA_0 .richcontent-pre-copy {
+            font-size: 13px;
+            color: #888;
+            position: absolute;
+            right: 1em;
+            top: .5em;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none
+        }
+
+        ._29HP61GA_0 .richcontent-pre-copy .iconfont {
+            font-size: 12px;
+            margin-right: .2em
+        }
+
+        ._29HP61GA_0 a {
+            color: #fa8919;
+            border-bottom: 1px solid #fa8919
+        }
+
+        ._29HP61GA_0 img {
+            display: block;
+            max-width: 100%;
+            position: relative;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+            background-color: #eee;
+            vertical-align: top;
+            border-radius: 0
+        }
+
+        ._29HP61GA_0 audio,
+        ._29HP61GA_0 video {
+            width: 100%;
+            background-color: #eee
+        }
+
+        ._29HP61GA_0 pre {
+            margin-top: 16px;
+            padding: 34px 0 0;
+            margin-bottom: 30px;
+            position: relative;
+            border-radius: 6px;
+            background: rgba(246, 247, 251, .749);
+            border: 0
+        }
+
+        ._29HP61GA_0 pre code {
+            font-size: 12px;
+            font-family: Consolas, Liberation Mono, Menlo, monospace, Courier;
+            display: block;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            margin-left: 16px;
+            margin-right: 16px;
+            overflow-x: scroll
+        }
+
+        ._29HP61GA_0 pre code:after {
+            content: "";
+            height: 30px;
+            width: 100%;
+            display: block
+        }
+
+        ._29HP61GA_0 hr {
+            border: none;
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-top: 1px solid #f5f5f5;
+            height: 1px;
+            background: none
+        }
+
+        ._29HP61GA_0 h1,
+        ._29HP61GA_0 h2,
+        ._29HP61GA_0 h3,
+        ._29HP61GA_0 h4,
+        ._29HP61GA_0 h5 {
+            margin-bottom: 20px;
+            margin-top: 0;
+            font-weight: 700
+        }
+
+        ._29HP61GA_0 b,
+        ._29HP61GA_0 strong {
+            font-weight: 700
+        }
+
+        ._29HP61GA_0 h1 {
+            font-size: 21px
+        }
+
+        ._29HP61GA_0 h2 {
+            font-size: 20px
+        }
+
+        ._29HP61GA_0 h3 {
+            font-size: 19px
+        }
+
+        ._29HP61GA_0 h4 {
+            font-size: 18px
+        }
+
+        ._29HP61GA_0 h5 {
+            font-size: 17px
+        }
+
+        ._29HP61GA_0 center,
+        ._29HP61GA_0 p {
+            font-weight: 400;
+            color: #353535;
+            margin-top: 0;
+            margin-bottom: 30px;
+            word-break: break-word
+        }
+
+        ._29HP61GA_0 center {
+            text-align: center
+        }
+
+        ._29HP61GA_0 blockquote {
+            margin-top: 0;
+            margin-bottom: 34px;
+            border-left: 3px solid #e8e8e8;
+            padding-left: 17px;
+            color: #353535
+        }
+
+        ._29HP61GA_0 blockquote p {
+            margin-top: 0;
+            margin-bottom: 0
+        }
+
+        ._29HP61GA_0 ol,
+        ._29HP61GA_0 ul {
+            margin-bottom: 30px
+        }
+
+        ._29HP61GA_0 ol p,
+        ._29HP61GA_0 ul p {
+            margin-top: 0;
+            margin-bottom: 0
+        }
+
+        ._29HP61GA_0 ol {
+            list-style: decimal;
+            margin-left: 20px
+        }
+
+        ._29HP61GA_0 ul li {
+            padding-left: 17px;
+            position: relative;
+            margin-bottom: 10px
+        }
+
+        ._29HP61GA_0 ul li:after {
+            content: "";
+            height: 6px;
+            width: 6px;
+            border-radius: 50%;
+            background: #353535;
+            position: absolute;
+            top: 10px;
+            left: 0
+        }
+
+        ._29HP61GA_0 .orange {
+            color: #fa8919
+        }
+
+        ._29HP61GA_0 .reference {
+            color: #888
+        }
+
+        ._29HP61GA_0 .m-right {
+            text-align: right
+        }
+
+        ._29HP61GA_0 .m-center {
+            text-align: center;
+            display: block
+        }
+
+        ._29HP61GA_0 .m-gray {
+            color: #888
+        }
+
+        ._29HP61GA_0 .m-small {
+            font-size: 15px
+        }
+
+        ._29HP61GA_0 table.hljs-ln {
+            margin-bottom: 0;
+            border-spacing: 0;
+            border-collapse: collapse
+        }
+
+        ._29HP61GA_0 table.hljs-ln,
+        ._29HP61GA_0 table.hljs-ln tbody,
+        ._29HP61GA_0 table.hljs-ln td,
+        ._29HP61GA_0 table.hljs-ln tr {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box
+        }
+
+        ._29HP61GA_0 table.hljs-ln td {
+            padding: 0;
+            border: 0
+        }
+
+        ._29HP61GA_0 table.hljs-ln td.hljs-ln-numbers {
+            min-width: 15px;
+            font-size: 12px;
+            color: rgba(27, 31, 35, .3);
+            text-align: right;
+            white-space: nowrap;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none
+        }
+
+        ._29HP61GA_0 table.hljs-ln td.hljs-ln-code,
+        ._29HP61GA_0 table.hljs-ln td.hljs-ln-numbers {
+            font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
+            line-height: 20px;
+            vertical-align: top
+        }
+
+        ._29HP61GA_0 table.hljs-ln td.hljs-ln-code {
+            position: relative;
+            padding-right: 10px;
+            padding-left: 10px;
+            overflow: visible;
+            font-size: 13px;
+            color: #666;
+            word-wrap: normal;
+            white-space: pre
+        }
+
+    </style>
+</head>
+<body>
+<div class="_29HP61GA_0">
+<h1>14-赚到钱只是结果：做出来和推出去的效率</h1>
+<p>你好，我是苏杰。</p><p>今天是第四轮MVP——Promotion的第三讲，让我们一起聊聊一款产品的非产品面，也就是<span class="orange">做出来和推出去的效率</span>。</p><p>我一直说，产品创新的从无到有就是“三句话，九个字”：</p><ul>
+<li>想清楚。</li>
+<li>做出来。</li>
+<li>推出去。</li>
+</ul><p>它们分别对应着高科技公司里最重要的三种岗位，广义的产品、广义的技术、广义的运营。</p><p>我知道一家小工作室，他们给别人做产品工作的外包。简单地说，他们就是帮客户做诸如需求分析、产品文档协作、产品原型制作、竞品分析等工作。这家工作室的交付质量很高，但活得并不那么滋润。因为他们的交付成本太高了——同时最多只能接三个客户。想多赚钱的话，他们的交付质量就会下降。可从长期看，如果没了口碑，今后反而赚不到钱了。</p><p>在我看来，这其实就是<strong>“做出来”的效率太低</strong>了。</p><p>再说个例子，我之前自己做过一个知识付费类产品，你可以简单地将它理解成2B的“在行”（通过“在行”，可以约见不同领域的行家，与他们进行一对一见面约谈）。但这个产品最终被放弃了，其中一个重要因素就是获客成本居高不下。哪怕是客单价两三千的业务，但因为对方是企业客户，所以你就得反复沟通，电话基本是不行的，得见面，甚至需要提供试听。</p><p>这就是<strong>“推出去”的效率太低</strong>。</p><h2>提升做出来和推出去的效率</h2><!-- [[[read_end]]] --><p>所以这一讲，我们就来聊聊如何提升“做出来”和“推出去”的效率。</p><p>做出来的效率，在管理学里专业的说法是“<strong>生产制造的可扩展性</strong>”。打比方说，一款产品如果给10倍的用户使用，那么这款产品在生产制造上的成本提升是多少？如果成本提升得少，就是可扩展性高。</p><p>推出去的效率，它的专业说法叫“<strong>销售传播的可扩展性</strong>”。同样的比方，一款产品给10倍的用户使用，它在销售传播上的成本提升是多少？如果成本提升得少，就是可扩展性高。</p><h3>做出来的效率</h3><p>先说做出来的效率吧，我们举一个内容行业的例子来说明一下。</p><p><img src="https://static001.geekbang.org/resource/image/a6/20/a6e8afd8bce4b94d9f3ad1eccc4ff120.png" alt=""></p><p>同样是一场戏，如果它的产品形态是在小剧场里演的话剧，则生产制造的可扩展性就很低，因为要满足10倍的用户，就得演十次。</p><p>但如果改变模式，只演一次，然后将这一场演出摄影、录制，做成光盘，以光盘作为产品交付，那么满足10倍的用户，生产成本就会大大低于10倍。</p><p>继续优化下去，把光盘的内容上传成在线的视频，进一步降低了满足更多用户的成本增幅。这种情况下，除非你提供新的内容，否则单用户成本是极低的。</p><p>进一步优化，如果能提供一系列好工具，把内容的生产制造分包给各种用户，就像抖音、快手那样，平台上自发产生源源不断的新内容，都不用自己做了，则成本可以再一次降低。</p><p>小结一下提升生产制造销量的常见做法。</p><ol>
+<li>降低复制成本，比如标准化、数字化、智能化；</li>
+<li>提供基础设施，然后众包/外包生产过程。</li>
+</ol><h3>推出去的效率</h3><p>接下来，我们通过一个零售行业的例子来谈谈推出去的效率。</p><p>假设村里老王的手艺很好，时不时做一些小孩子的木头小人玩具。</p><p><img src="https://static001.geekbang.org/resource/image/d1/72/d1648c4f730f44b2cb7e0050f683cd72.png" alt=""></p><p>最早，他会在逢年过节的时候拿到镇上的庙会上卖，这时候的分销成本是最高的，因为规定了时间、规定了地点，你要卖给10倍的用户，需要付出很大的额外成本，比如赶到其他镇子，等待庙会时间。</p><p>后来老王发现卖玩具是个挺好的生意，于是想办法提升分销效率。他决定把做好的玩具批发给每个村头的小卖部，这样，每个村子的小孩都能随时买到了。</p><p>老王的生意越做越好，听年轻人的话，开了网店。之后，全国各地的小孩，在任何时间都能买到他做的玩具了。老王也成立了公司，研发出了以他的木头小人玩具为主角的动画、漫画衍生品，这下，分销起来连物流成本都省了。</p><p>那么接下来老王还能怎么优化呢？这两年，老王再一次受到拼多多、趣头条这样产品的启发，让曾经买过他产品的广大家长用户加入了销售传播，建立起了自己的用户分销网络。</p><p>通过上面这个虚构的故事，小结一下提升销售传播效率的常见做法。</p><ol>
+<li>消除时间、地点等销售传播的限制因素；</li>
+<li>产品数字化，减少，甚至消除物流环节；</li>
+<li>提供基础设施，然后众包/外包分销过程。</li>
+</ol><p>以上，做出来和推出去效率的提升，我们能看到一些大趋势。</p><p>首先，产品交付从实到虚，再到虚实结合，这是因为人们不能只活在数字世界里；其次，效率高的产品供给方，都会渐渐的演变成平台，让更多的玩家、更多的用户参与到做和推的过程中。</p><p>我们发现，从BAT到TMD，但凡做成巨头的公司，都有几分平台的样子。</p><h2>今日案例：”双十一“的做出来和推出去</h2><p>这一讲的案例，我们来聊聊每年11月都会被热议的一个话题，或者说也算是一个产品，“双十一”。来看看这么多年的“双十一”，在产品“做出来”和“推出去”的效率上都有哪些改进。</p><p>先容我回忆一下2010年以前淘宝做大促时的情景，毕竟我是那种原始状态的亲历者。</p><p>当时我们需要每天从0点到24点，以一小时为单位，给重点商家打电话询问客服压力、销量、库存情况，再查看活动页面的流量情况，调整接下来一个小时的策略。</p><ul>
+<li>阿迪达斯的新货快卖完了，运营同学就要把它在活动页面的位置往暗处调一调；</li>
+<li>李宁的订单数开始加速上升，先不管什么原因，把李宁调整到明显点的位置再说，这需要很多小二随时待命；</li>
+<li>当你发现男鞋交易情况不乐观，是因为客服承接不住海量的咨询，就赶紧打电话让某商家临时增加客服数（类似的工作商家都是外包给专业的公司做的，可以临时调拨人手）</li>
+<li>……</li>
+</ul><p>这很像在操盘，这也是为什么一做活动，就要一群人每天守到午夜的原因。</p><p>但那个时候累归累，大家还是很爽的，因为有一种大权在握的感觉。卖家、买家的一切好像都“由我掌控”。</p><p>说回主题，2009年的第一届“双十一”基本上就是上面这种混乱的状态。而我一直认为2010年的“双十一”是最有纪念意义的，当然，这也有主观原因，那是我第一次参与的“双十一”。</p><p>客观上来看，2010年“双十一”是最为超出预期的一年，当时内部员工之间有个赌局，看谁能猜中最终的交易额，大多数人都猜2亿左右，少数乐观的猜3亿，毕竟2009年的时候才5000万。最终，没想到交易额达到了9.36个亿。这是将近2000%的增长，后面每一年的增长率，再也没可能达到这样恐怖的4位数了。</p><p>当时，无论是最核心的指挥部，还是数据团队，看到那么惊人的数字增长情况，都是互相一脸“我去，别不是哪里弄错了吧”的表情。</p><p>为了支撑那样一个庞大的数据量，当年的系统（不只是阿里，而是整个业界）可谓颤颤巍巍。</p><ul>
+<li>整个活动前需要买多少流量？买哪里的流量？</li>
+<li>人肉调整活动页面海景房（我们这么称呼主推单品）——李宁又调来一批鞋，再把它调上去。</li>
+<li>库存数据没打通，只能和商家通过旺旺群沟通。</li>
+<li>流量给多了，我家裤子卖完啦，你也是卖裤子的，我给你导流吧……同行间互相导流，一片和谐（这其实是流量运营低效的表现）。</li>
+<li>卖家没法实时搞清到底卖了多少，要等淘宝算几个小时以后告诉他，你能相信吗？</li>
+<li>买家还不习惯把钱放进支付宝，付款时银行支付系统接连宕机（虽然提前打过招呼，但银行们不重视啊，2011年开始就好很多了）。搞笑的是，支付宝的同事也开了赌局，赌的是哪家银行能撑得住，结果，宇宙第一大行工商银行是唯一幸存的。</li>
+<li>物流爆仓，胡乱堆着，数据不全、对不上，慢慢发呗，发货到月底、年底、甚至春节前。</li>
+<li>……</li>
+</ul><p>这所有的一切都在倒逼你<span class="orange">提升做出来和推出去的效率</span>。</p><p>后来，在很多产品技术的帮助下，所有的数据，淘宝都能抓在自己手里，从而在很大程度上实现了活动策略调整的<strong>自动化</strong>，下面的大部分描述已经成为现实，大促时再也不会出现从前的慌乱。</p><p>每天从0点到晚上24点，实时监控活动页面的流量引入情况、商家/商品流量转化情况、商家客服的承接能力、商家库存的余量等各种数据，调整接下来几分钟的策略，活动页面自动化调整。</p><p>再利用人工智能AI技术，鹿班系统一秒钟可以做8000张活动页面上的图片，而活动页面本身，也是针对不同的用户做到“千人千面”了。</p><p>这是在做出来的层面提高了效率，降低了复制成本（标准化、数字化、智能化）。</p><p>后期，阿里给生态系统里的各路玩家提供能力，随着菜鸟网络、阿里云、蚂蚁金服的建设，整个社会上有越来越多的人和组织参与到“双十一”中，物流、软件、金融，还有各种客服外包公司，到了11月初，都能看到各种横幅、氛围很浓，大家一起把整个盘子做大了。</p><p>这是做出来的层面，提供了基础设施，然后众包/外包了生产过程。</p><p>当然，后来有了AI客服，可以节省绝大部分人工应答，这也是一种智能化的提升。</p><p>在“推出去”方面的效率提升一直是隐藏在幕后的工作，你可能并不能直接接触、感知到，我也为你简单说说。</p><p>第一，消除时间、地点等销售传播的限制因素。</p><p>因为淘宝本身是网购，所以早期就已经很高效了。而且后来，很多公司都会在“双十一”期间对客服团队进行弹性扩容，而这些临时员工并不需要在一起办公。</p><p>第二，产品数字化，减少，甚至消除物流环节。</p><p>实体货物是必须发货的，但整个过程的信息化管理，已经大大提升了从发货到收到货的效率。今天，“双十一”的货物，很多产品都可以达到和平时一样的速度了。</p><p>第三，提供基础设施，然后众包/外包分销过程。</p><p>这两年，每到“双十一”，除了阿里，各种商家、物流、金融等公司都在大力宣传，唯恐缺席了这场全民盛宴。</p><p>今天，越来越多的系统化与自动化，比如有了很多“优雅降级”的开关，当流量过大时，只要开开关关，就可以保证系统平稳运行，甚至，这些开关的状态变化，都已经自动化了。</p><p>对于一个“双十一”的参与者来说，这感觉有点像一个人类老司机，一开始是手动挡，然后变成了自动挡，再有了各种自动的大灯、雨刷，渐渐的，汽车自己接管了越来越多的操作，参与者好像坐在了不断自我升级的自动驾驶汽车里一样。</p><p>“双十一”的例子说完，我发现“做出来”和“推出去”效率的提升方法，其实也可以用在生活中。</p><p>比如我知道有些程序员，夏天会一次性买一打黑色T恤，想必这种标准化操作，这就是他们能提升生活效率，空出更多时间写代码的绝招吧。</p><h2>小结</h2><p>我对产品从无到有的过程描述有九个字“想清楚、做出来、推出去”。产品好不好，除了想清楚本身，还要看做出来和推出去的效率。只要效率高了，赚到钱，达成公司目标，就是自然而然的结果。</p><p><img src="https://static001.geekbang.org/resource/image/dd/79/ddec683a92b1b06393746eb0c15fe579.png" alt=""></p><h2>思考题</h2><p>你可以想想自己负责的产品，有哪些可以提升“做出来”或者“推出去”效率的做法？</p><p>你可以在留言区写出自己的答案，与我和其他同学一起讨论，也欢迎你把文章分享给你的朋友。</p><h2>精选留言：</h2>
+        <ul>
+        
+<li>
+    <div>
+        <div style="color: #888;font-size:15.25px;font-weight:400;            line-height:1.2">
+            zw_learn_2  2019-11-20 06:19:34
+        </div>
+        <div style="color:#353535;font-weight:400;white-space:normal;            word-break:break-all;line-height:1.6">
+            老师你好，我们是做电力行业信息化平台的（产品特点是行业性较强，运行于专网环境），针对这样的产品，有哪些快速推出去的方法？ [1赞]
+        </div>
+        <br/>
+<div>
+    <div style="color:#888;font-size:15.25px;font-weight:400;        line-height:1.2">作者回复2019-11-20 10:04:36</div>
+    <div style="color:#353535;font-weight:400;white-space:normal;        word-break:break-all;line-height:1.6">这种产品需求弹性很小，感觉还是强销售的，主要和竞争对手pk</div>
+</div>
+            
+    </div>
+</li>
+            
+<br/>
+
+<li>
+    <div>
+        <div style="color: #888;font-size:15.25px;font-weight:400;            line-height:1.2">
+            leslie  2019-11-20 14:07:40
+        </div>
+        <div style="color:#353535;font-weight:400;white-space:normal;            word-break:break-all;line-height:1.6">
+                 又学到了一招：又成长了一步。”想清楚、做出来、推出去“：合适的度这个确实不容易把握。其实想清楚的同时做出来和推出去可以并行，这个度的把握确实我觉得确实不好把握。<br>    新产品-推出去的过程似乎感觉都是在仿效或者改进：可能我从老师今天的课程中感受到的就是如此啊；不想产品有时可以完全不一样的角度&#47;切入点。 
+        </div>
+        <br/>
+<div>
+    <div style="color:#888;font-size:15.25px;font-weight:400;        line-height:1.2">作者回复2019-11-21 21:20:43</div>
+    <div style="color:#353535;font-weight:400;white-space:normal;        word-break:break-all;line-height:1.6">多实践，多体会</div>
+</div>
+            
+    </div>
+</li>
+            </ul>
+</div>
+</body>
+</html>
